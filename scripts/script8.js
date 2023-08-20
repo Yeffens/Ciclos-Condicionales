@@ -15,7 +15,7 @@ for (let i = 1; i <= N; i++) {
     }
 }while (hijos <= N){
         let hijos = parseInt(prompt("Ingrese La Cantidad De Hijos" ))
-        if (hijos >= 1) {
+        if (hijos >= 0) {
             hijos = hijos + 1
         } else {
             hijos = hijos + 1
