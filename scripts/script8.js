@@ -13,14 +13,14 @@ for (let i = 1; i <= N; i++) {
         nHijos = nHijos + 1
         
     }
-}while (hijos){
-        let hijos = parseInt(prompt("Ingrese La Cantidad De Hijos"))
+}while (hijos <= N){
+        let hijos = parseInt(prompt("Ingrese La Cantidad De Hijos" ))
         if (hijos >= 1) {
             hijos = hijos + 1
         } else {
             hijos = hijos + 1
         }
-        promedio = tHijos + hijos
+        promedio = tHijos + hijos / N
         shijos = shijos + hijos 
         
         console.log(" El Numero De Hijos: " + hijos)
